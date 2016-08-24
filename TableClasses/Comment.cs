@@ -22,7 +22,6 @@ namespace ASPBlog.TableClasses
         public bool IsDeleted { get; set; }
         [Required]
         public Post post { get; set; }
-
-
+        
     }
 }
