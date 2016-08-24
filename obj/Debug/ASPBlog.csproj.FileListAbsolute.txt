@@ -1,0 +1,138 @@
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\roslyn\csc.exe
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\roslyn\System.Collections.Immutable.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\roslyn\vbc.exe
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\roslyn\VBCSCompiler.exe
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\roslyn\VBCSCompiler.exe.config
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\ASPBlog.dll.config
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\ASPBlog.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\ASPBlog.pdb
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Antlr3.Runtime.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\EntityFramework.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\EntityFramework.SqlServer.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.Owin.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.Google.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.Web.Infrastructure.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Newtonsoft.Json.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Owin.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\System.Web.Helpers.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\System.Web.Mvc.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\System.Web.Optimization.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\System.Web.Razor.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\System.Web.WebPages.Deployment.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\System.Web.WebPages.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\System.Web.WebPages.Razor.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\WebGrease.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\System.Web.Helpers.xml
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\System.Web.Mvc.xml
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\System.Web.Optimization.xml
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\System.Web.Razor.xml
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\System.Web.WebPages.xml
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\System.Web.WebPages.Deployment.xml
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\System.Web.WebPages.Razor.xml
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Antlr3.Runtime.pdb
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Newtonsoft.Json.xml
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\EntityFramework.xml
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\EntityFramework.SqlServer.xml
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.Owin.xml
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.xml
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.Google.xml
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\obj\Debug\ASPBlog.csprojResolveAssemblyReference.cache
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\obj\Debug\ASPBlog.dll
+c:\users\mario\documents\visual studio 2015\Projects\ASPBlog\ASPBlog\obj\Debug\ASPBlog.pdb
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\roslyn\csc.exe
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\roslyn\vbc.exe
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\roslyn\VBCSCompiler.exe
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\ASPBlog.dll.config
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\ASPBlog.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\ASPBlog.pdb
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Antlr3.Runtime.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\EntityFramework.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\EntityFramework.SqlServer.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.Owin.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Newtonsoft.Json.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Owin.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\System.Web.Helpers.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\System.Web.Mvc.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\System.Web.Optimization.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\System.Web.Razor.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\System.Web.WebPages.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\System.Web.WebPages.Razor.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\WebGrease.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\System.Web.Helpers.xml
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\System.Web.Mvc.xml
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\System.Web.Optimization.xml
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\System.Web.Razor.xml
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\System.Web.WebPages.xml
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\System.Web.WebPages.Razor.xml
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Antlr3.Runtime.pdb
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Newtonsoft.Json.xml
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\EntityFramework.xml
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\EntityFramework.SqlServer.xml
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.Owin.xml
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.xml
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\obj\Debug\ASPBlog.csprojResolveAssemblyReference.cache
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\obj\Debug\ASPBlog.dll
+C:\Users\DB\Desktop\Mario ASP.NET\ASPBlog\ASPBlog\obj\Debug\ASPBlog.pdb
