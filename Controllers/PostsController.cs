@@ -6,11 +6,13 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using ASPBlog.Models;
-using ASPBlog.TableClasses;
+using BlogMVC.Models;
 
-namespace ASPBlog.Controllers
+
+namespace BlogMVC.Controllers
 {
+    [ValidateInput(false)]
+    
     public class PostsController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
@@ -18,7 +20,7 @@ namespace ASPBlog.Controllers
         // GET: Posts
         public ActionResult Index()
         {
-            var posts = db.Posts.OrderByDescending(p => p.PostDate).Include(p=>p.Author).ToList();
+            var posts = db.Posts.Include(p => p.Author);
             return View(posts);
         }
 
@@ -38,6 +40,7 @@ namespace ASPBlog.Controllers
         }
 
         // GET: Posts/Create
+        [Authorize]
         public ActionResult Create()
         {
             return View();
@@ -47,11 +50,14 @@ namespace ASPBlog.Controllers
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Authorize]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "PostId,PostTitle,PostBody,PostDate,IsDeleted")] Post post)
+        public ActionResult Create([Bind(Include = "Id,Title,Body")] Post post)
         {
+            
             if (ModelState.IsValid)
             {
+                post.Author = db.Users.FirstOrDefault(u => u.UserName == User.Identity.Name);
                 db.Posts.Add(post);
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -61,6 +67,7 @@ namespace ASPBlog.Controllers
         }
 
         // GET: Posts/Edit/5
+        [Authorize]
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -79,8 +86,9 @@ namespace ASPBlog.Controllers
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Authorize]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "PostId,PostTitle,PostBody,PostDate,IsDeleted")] Post post)
+        public ActionResult Edit([Bind(Include = "Id,Title,Body,Date")] Post post)
         {
             if (ModelState.IsValid)
             {
@@ -92,6 +100,7 @@ namespace ASPBlog.Controllers
         }
 
         // GET: Posts/Delete/5
+        [Authorize]
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -107,6 +116,7 @@ namespace ASPBlog.Controllers
         }
 
         // POST: Posts/Delete/5
+        [Authorize]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)

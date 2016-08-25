@@ -1,4 +1,4 @@
-﻿@model ASPBlog.TableClasses.Post
+﻿@model BlogMVC.Models.Post
 
 @{
     ViewBag.Title = "Delete";
@@ -12,35 +12,27 @@
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.PostTitle)
+            @Html.DisplayNameFor(model => model.Title)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.PostTitle)
+            @Html.DisplayFor(model => model.Title)
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.PostBody)
+            @Html.DisplayNameFor(model => model.Body)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.PostBody)
+            @Html.DisplayFor(model => model.Body)
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.PostDate)
+            @Html.DisplayNameFor(model => model.Date)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.PostDate)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.IsDeleted)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.IsDeleted)
+            @Html.DisplayFor(model => model.Date)
         </dd>
 
     </dl>

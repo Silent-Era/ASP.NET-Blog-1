@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace ASPBlog
+namespace BlogMVC
 {
     public class BundleConfig
     {

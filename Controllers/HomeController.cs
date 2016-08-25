@@ -1,22 +1,19 @@
-﻿using ASPBlog.Models;
-using ASPBlog.TableClasses;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-
-namespace ASPBlog.Controllers
+using BlogMVC.Models;
+namespace BlogMVC.Controllers
 {
     public class HomeController : Controller
     {
         public ActionResult Index()
         {
-            ApplicationDbContext db = new ApplicationDbContext();
-            var posts = db.Posts.OrderByDescending(p => p.PostDate).Include(p => p.Author).ToList();
+            //First three posts
+            var db = new ApplicationDbContext();
+            var posts = db.Posts.OrderByDescending(p => p.Id).Take(3).ToList();           
             return View(posts);
-        }
-
+        }       
     }
 }

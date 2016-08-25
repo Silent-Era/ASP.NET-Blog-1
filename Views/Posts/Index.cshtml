@@ -1,36 +1,58 @@
-﻿@{
-    ViewBag.Title = "Home Page";
+﻿@model IEnumerable<BlogMVC.Models.Post>
+
+@{
+    ViewBag.Title = "Index";
 }
-@using ASPBlog.TableClasses
-@model List<Post>
 
-<div style="text-align:center">
-    <h1>Welcome to this totally not noob blog.</h1>
-</div>
-<div class="row">
-    @if (Model != null)
-    {
-    foreach (Post post in Model)
-    {
-        <div class="col-md-12">
-            <h1>@post.PostTitle</h1>
-            <div>
-                Posted by
-                @if (post.Author.FullName != null)
-                {
-                    <i>@post.Author.FullName (@post.Author.UserName)</i>
-                }
-                else
-                {
-                    <i>@post.Author.UserName</i>
-                }
-                on <i>@String.Format("{0:dd-MM-yyyy}.", post.PostDate)</i>
-                <p>
-                    @Html.Raw(post.PostBody)
-                </p>
-            </div>
-        </div>
-     }
-    }
+<h2>List all Post</h2>
 
-</div>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Body)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Author)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Body)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        <td>
+           @if(item.Author != null)
+           {
+               @item.Author.UserName
+           }else
+           {
+               @:anonymous
+           }
+        </td>
+        <td>
+            Actions
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

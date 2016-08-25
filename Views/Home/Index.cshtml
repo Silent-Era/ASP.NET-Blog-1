@@ -1,35 +1,28 @@
-﻿@{
+﻿
+@{
     ViewBag.Title = "Home Page";
 }
-@using ASPBlog.TableClasses
-@model List<Post>
+@model List<BlogMVC.Models.Post>
 
 
-<div class="row">
-    @if (Model != null)
+<section class="row">
+    @foreach (var post in Model)
     {
-        foreach (Post post in Model)
-        {
-            <div class="col-md-12">
-                <h1>@post.PostTitle</h1>
-                <div>
-                    Posted by
-                    @if (post.Author.FullName != null)
-                    {
-                        <i>@post.Author.FullName (@post.Author.UserName)</i>
-                    }
-                    else
-                    {
-                        <i>@post.Author.UserName</i>
-                    }
-                    on <i>@String.Format("{0:dd-MM-yyyy}.", post.PostDate)</i>
-                    <p>
-                        @Html.Raw(post.PostBody)
-                    </p>
-                </div>
+        <article class="post col-md-6">
+            <h2 class="title">@Html.Raw(post.Title)</h2>
+            <div class="about">
+                Posted By @if(post.Author != null)
+                {
+                    <i>@post.Author</i> <br />
+                }else
+                {
+                    <i>Anonymous</i> <br />
+                }
+                on @post.Date
             </div>
-        }
+            <div>
+                @Html.Raw(post.Body)
+            </div>
+        </article>
     }
-
-</div>
-
+</section>
