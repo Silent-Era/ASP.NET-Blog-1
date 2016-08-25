@@ -1,7 +1,35 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
+@using ASPBlog.TableClasses
+@model List<Post>
 
-<div>
-    <h1>Welcome to My Blog</h1>
+
+<div class="row">
+    @if (Model != null)
+    {
+        foreach (Post post in Model)
+        {
+            <div class="col-md-12">
+                <h1>@post.PostTitle</h1>
+                <div>
+                    Posted by
+                    @if (post.Author.FullName != null)
+                    {
+                        <i>@post.Author.FullName (@post.Author.UserName)</i>
+                    }
+                    else
+                    {
+                        <i>@post.Author.UserName</i>
+                    }
+                    on <i>@String.Format("{0:dd-MM-yyyy}.", post.PostDate)</i>
+                    <p>
+                        @Html.Raw(post.PostBody)
+                    </p>
+                </div>
+            </div>
+        }
+    }
+
 </div>
+

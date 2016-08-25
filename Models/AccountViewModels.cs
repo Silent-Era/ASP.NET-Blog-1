@@ -6,6 +6,9 @@ namespace ASPBlog.Models
     public class ExternalLoginConfirmationViewModel
     {
         [Required]
+        [Display(Name ="Username")]
+        public string UserName { get; set; }
+        [Required]
         [Display(Name = "Email")]
         public string Email { get; set; }
     }
@@ -49,9 +52,8 @@ namespace ASPBlog.Models
     public class LoginViewModel
     {
         [Required]
-        [Display(Name = "Email")]
-        [EmailAddress]
-        public string Email { get; set; }
+        [Display(Name = "Username")]
+        public string UserName { get; set; }
 
         [Required]
         [DataType(DataType.Password)]
@@ -64,6 +66,15 @@ namespace ASPBlog.Models
 
     public class RegisterViewModel
     {
+        [Required]
+        [StringLength(15,ErrorMessage ="Username must be 15 symbols long")]
+        [Display(Name="Username")]
+        public string UserName { get; set; }
+
+        [StringLength(200,ErrorMessage ="Your name shoould be no more than 200 symbols")]
+        [Display(Name = "Full name")]
+        public string FullName { get; set; }
+
         [Required]
         [EmailAddress]
         [Display(Name = "Email")]
@@ -79,6 +90,7 @@ namespace ASPBlog.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+       
     }
 
     public class ResetPasswordViewModel
